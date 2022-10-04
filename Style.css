@@ -1,0 +1,9 @@
+@page{
+    size: A4;
+    margin: 0;
+}
+
+.boton{
+    display: none;
+    visibility: none;
+}

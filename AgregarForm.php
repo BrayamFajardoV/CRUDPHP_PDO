@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <title>Agregar Libro</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center" style="background-color: blueviolet; color:aliceblue; border-radius: 10px;">AGREGAR LIBRO</h1>
+        <br>
+    </div>
+    <div class="container">
+    <br>
+    <form action="Agregar.php" method="POST">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nombre del Libro</label>
+        <input type="text" class="form-control" name="NombreLibro">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Autor</label>
+        <input type="text" class="form-control" name="AutorLibro">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Descripcion</label>
+        <input type="text" class="form-control" name="DescripcionLibro">
+    </div>
+    <input type="hidden" name="hidden" value="1">
+    <button type="submit" class="btn btn-success">Enviar</button>
+    <a href="Index.php" class="btn btn-dark">Regresar</a>
+    </form>
+    </div>
+</body>
+</html>
